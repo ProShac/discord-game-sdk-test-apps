@@ -9,7 +9,7 @@ public class DiscordController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		discord = new Discord.Discord(461618159171141643, (System.UInt64)Discord.CreateFlags.Default);
+		discord = new Discord.Discord(1055623240413892689, (System.UInt64)Discord.CreateFlags.Default);
 		var activityManager = discord.GetActivityManager();
 		var activity = new Discord.Activity
 		{
